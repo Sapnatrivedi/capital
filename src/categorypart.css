@@ -1,0 +1,36 @@
+.cate-listing {
+	border: 1px solid #edeff2;
+	padding: 50px 14px;
+}
+
+/* select Options */
+.select-radius {
+	margin-bottom: 20px;
+	border-radius: 23px;
+	line-height: 2;
+}
+.cate-card-relate {
+	position: relative;
+	border: none !important;
+}
+.cate-card-absolute {
+	position: absolute;
+	bottom: 120px;
+
+	width: 100%;
+	opacity: 0;
+	transition: all 1.5s ease;
+}
+
+.cate-card-relate:hover .cate-card-absolute {
+	opacity: 1 !important;
+	cursor: pointer;
+}
+.form-check-input[type='checkbox'] {
+	width: 20px;
+	height: 20px;
+	border-radius: 50% !important;
+}
+.form-check-label {
+	margin-left: 6px;
+}

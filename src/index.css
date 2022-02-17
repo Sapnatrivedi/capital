@@ -1,0 +1,11 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Bakbak One', cursive;
+	font-family: 'Corinthia', cursive;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Shalimar', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Corinthia:wght@700&family=Roboto:ital,wght@0,300;1,300&family=Shalimar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Corinthia:wght@700&family=Roboto:ital,wght@0,300;1,300&family=Shalimar&family=Smooch&display=swap');

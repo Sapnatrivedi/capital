@@ -1,0 +1,365 @@
+/* for 1 st nav bar */
+.color {
+	background-color: #fff;
+}
+.nav-link {
+	color: #141517 !important;
+	padding-right: 1.2rem !important;
+	font-weight: 500;
+}
+.nav-link:hover {
+	color: #ff2020 !important;
+}
+/*  for 1st nabbar icons */
+.icon-size {
+	font-size: 2vw;
+}
+/* for second nav */
+.bg-color-change {
+	background-color: #141517;
+}
+.navbar-text {
+	color: #fff !important;
+}
+.dropdown-menu {
+	border-radius: 10px !important;
+	border-top: 5px solid #ff2020 !important;
+}
+/* for mainCarousel page */
+.car-head {
+	position: absolute !important;
+	top: 30% !important;
+	color: #141517 !important;
+	left: 60% !important;
+}
+.car-head1 {
+	position: absolute !important;
+	top: 30% !important;
+	color: #141517 !important;
+	right: 60% !important;
+}
+.font-change {
+	color: #ff2020;
+	font-weight: bolder;
+	font-family: 'Bakbak One', cursive;
+	font-family: 'Corinthia', cursive;
+	font-family: 'Roboto', sans-serif;
+	font-family: 'Shalimar', cursive;
+	font-family: 'Smooch', cursive;
+	font-size: 4vw;
+}
+/* for button */
+.btn-design {
+	border: 1px solid #292621 !important;
+	color: #fff !important ;
+	padding: 10px 30px !important;
+	background-color: #292621;
+}
+.btn-design:hover {
+	color: #141517 !important;
+	background-color: transparent !important;
+}
+
+/* main carousel ko responsive krne ke liye */
+@media (max-width: 767.98px) {
+	.car-head {
+		color: #141517 !important;
+		left: 10% !important;
+	}
+	.car-head1 {
+		color: #141517 !important;
+		right: 0 !important;
+	}
+	.img-height {
+		height: 120vh;
+	}
+}
+
+@media (min-width: 768px) {
+	.car-head {
+		color: #141517 !important;
+		top: 10%;
+		left: 50% !important;
+	}
+	.car-head1 {
+		color: #141517 !important;
+		right: 50% !important;
+	}
+	.img-height {
+		height: auto;
+	}
+}
+
+.second-nav {
+	background-color: #141517;
+	height: 10vh;
+	width: 100%;
+}
+.ternd-card {
+	margin: 5px;
+	border: none !important;
+	position: relative;
+}
+.testinomial {
+	background-color: #f3ead8;
+}
+.carousel-height {
+	height: 25rem;
+}
+
+.position-change {
+	position: relative;
+	top: 20%;
+}
+
+.para-align {
+	text-align: justify;
+	font-weight: 700;
+}
+
+.overlay {
+	position: absolute;
+	bottom: 20%;
+	left: 30%;
+	color: #fff;
+}
+/* css for trending card overlay image effect */
+.cart-icon:hover {
+	background-color: #ff2020;
+	color: #f3ead8;
+
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+.cart-icon {
+	background-color: #fff;
+	justify-content: space-around;
+
+	width: 33.3%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition: all 0.5s ease;
+}
+.check {
+	position: absolute;
+	bottom: 150px;
+
+	opacity: 0;
+	transition: all 1.5s ease;
+	width: 100%;
+}
+.ternd-card:hover .check {
+	opacity: 1 !important;
+	cursor: pointer;
+}
+
+.slick-dots li button {
+	visibility: hidden;
+}
+.cardlink {
+	color: #141517 !important;
+	font-weight: 500 !important;
+}
+
+.full-color {
+	background-color: #f6f6f6;
+}
+/* card ki border remove kanre ke liye */
+.None {
+	border: none !important;
+}
+p {
+	color: #57667e;
+}
+/* footer  */
+.footer-color {
+	background-color: #212529;
+}
+.footer-font-color {
+	color: #fff !important;
+}
+.footer-padding {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.change-input {
+	padding: 15px 24px !important;
+	background-color: rgb(255, 255, 255) !important;
+	border: 1px solid rgb(255, 255, 255, 0.2);
+	border-radius: 0px !important;
+	color: #141517;
+	font-size: 16px;
+}
+.change-button {
+	background-color: rgb(255, 32, 32);
+	padding: 15px 24px !important;
+	color: #fff !important;
+	border: none !important;
+	font-size: 16px !important;
+	font-weight: 500 !important;
+}
+
+.footer-social-icon {
+	font-size: 24px;
+	color: rgb(103, 127, 139);
+}
+@media (max-width: 575.98px) {
+	.change-button {
+		width: 100%;
+		margin-top: 5px;
+		margin-bottom: 5px;
+	}
+}
+.list {
+	color: rgb(187, 185, 181);
+	list-style: none;
+	padding-left: 0 !important;
+	padding-top: 10px;
+}
+
+.last-link {
+	margin-top: 10% !important;
+}
+.link-color {
+	color: rgb(255, 32, 32);
+}
+/* Categaory page */
+.cate-color {
+	background-color: #f3ead8;
+	height: auto;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.line::before {
+	color: #74706b !important;
+	content: '|' !important;
+	font-size: 14px;
+}
+
+/* check-box */
+
+.check-box-head {
+	margin-left: 15px;
+}
+.form-box {
+	padding-top: 15px;
+	padding-left: 2.5rem !important;
+}
+
+.update-cart {
+	background-color: #ff2020 !important;
+	text-decoration: none !important;
+	padding: 10px 20px !important;
+	color: #fff !important;
+	cursor: pointer;
+	border: 0 !important;
+	font-size: 16px !important;
+
+	border-radius: 35px !important;
+}
+.table-change tbody tr td {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+@media (max-width: 575.98px) {
+	.place {
+		display: grid;
+		place-items: center;
+	}
+}
+/* product details */
+.product-color {
+	background-color: #ff2020;
+}
+.add-to-cart {
+	background-color: #fff !important;
+	color: #141517 !important;
+	border-radius: 35px !important;
+	border: none !important;
+	padding: 10px 20px !important;
+	margin-right: 10px;
+}
+.share {
+	border-radius: 50% !important;
+	border: 1px solid #fff !important;
+	background: transparent !important;
+}
+/* products tab */
+.nav-tabs {
+	border-bottom: none !important;
+}
+.nav-tabs .nav-link {
+	border-bottom: none !important;
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+}
+.nav-tabs .nav-link.active {
+	border-bottom: 3px solid red !important;
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+}
+.nav-tabs .nav-link:hover {
+	border-bottom: 3px solid red !important;
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+}
+a {
+	text-decoration: none !important;
+	color: #141517 !important;
+}
+a:hover {
+	color: #ff2020 !important;
+}
+a:active {
+	background-color: transparent !important;
+}
+.product-container {
+	margin-top: 7%;
+	margin-bottom: 10%;
+}
+/* checckout */
+.return {
+	width: 100%;
+	background-color: #f4f4f4;
+}
+.product-color {
+	background-color: #f4f4f4;
+}
+.check-payment {
+	background-color: #fff;
+	padding: 12px 30px;
+}
+#loading {
+	width: 100%;
+	height: 100vh;
+	display: grid;
+	place-items: center;
+}
+.fixed {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	/* left: 0; */
+	z-index: 1030;
+}
+.animate {
+	animation: bouncy 3s ease-in-out infinite;
+}
+@keyframes bouncy {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+.nav a {
+	color: #141517 !important;
+}
