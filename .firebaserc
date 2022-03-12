@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "coaching-classes-e9e5f"
-  }
+    "default": "capital-f8899",
+    "y": "capital-f8899"
+  },
+  "targets": {}
 }
